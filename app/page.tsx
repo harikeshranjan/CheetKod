@@ -27,7 +27,7 @@ export default function Home() {
                 Coding
               </span>
               Challenges with
-              <br className="hidden sm:block" />
+              <br className="hidden sm:block" /> {" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
                 CheetKOD
               </span>
@@ -44,7 +44,7 @@ export default function Home() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <Link
-                href="/dsa-topics"
+                href="/dsa"
                 className="group px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Refer DSA
@@ -119,7 +119,7 @@ export default function Home() {
                 Dive into sorting, searching, dynamic programming, and advanced algorithmic techniques.
               </p>
               <Link
-                href="/algorithm"
+                href="/algorithms"
                 className="text-purple-600 dark:text-purple-400 font-medium hover:text-purple-700 dark:hover:text-purple-300 transition-colors duration-200"
               >
                 Learn Algorithms →
@@ -159,7 +159,7 @@ export default function Home() {
               Join thousands of developers who are mastering coding interviews with CheetKOD's comprehensive solutions.
             </p>
             <Link
-              href="/dsa-topics"
+              href="/dsa"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Start Your Journey
